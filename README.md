@@ -3,6 +3,15 @@
 Pagina statica provvisoria per `www.nemeadesign.com`, finché il negozio Shopify non va online.
 Pubblicata con GitHub Pages dal ramo `main`.
 
+## Lingue
+
+Una pagina per lingua, ognuna col suo indirizzo, collegate con `hreflang` perché Google le indicizzi una per una:
+`/` inglese (apertura), poi `/de/`, `/es/`, `/fr/`, `/it/`, in quest'ordine (Claudio, 31/10/2026).
+
+- Struttura e stile si cambiano **solo** in `index.html` (inglese). I testi di tutte le lingue stanno in
+  `_strumenti/genera-lingue.js`. Dopo ogni modifica: `node _strumenti/genera-lingue.js`, che riscrive le 5 pagine.
+- "Collezione" resta in italiano in tutte le lingue: è il nome della collezione e la firma del made in Italy.
+
 - Colori e logo: brand identity Nemea (NemeaOS, `progetti/brand-identity/`).
 - Font: Urbanist (Google Fonts) al posto di Gilroy, finché non è confermata la licenza web di Gilroy.
   Gilroy non va mai messo in questo repository: è pubblico.
