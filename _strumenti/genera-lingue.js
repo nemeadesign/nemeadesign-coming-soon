@@ -23,11 +23,11 @@ const TESTI = {
     h1: 'Carbon fiber.<br>Any shape you imagine.',
     lead: 'From automotive to furniture, from sport to everyday objects. Where style meets technology. Motor Valley.',
     cosaKicker: 'What we make',
-    cosa: 'Carbon fiber parts for cars and motorcycles: spoilers and wings, front splitters, side skirts, hoods, diffusers, mirror caps and interior trim. And custom carbon parts for furniture, sport and design objects. We work pre-preg carbon fiber: cut by plotter, laid up in our clean room, cured in autoclave in our own molds. Our online shop opens soon.',
+    cosa: 'Carbon fiber parts for cars and motorcycles: spoilers and wings, front splitters, side skirts, hoods, diffusers, mirror caps and interior trim. And far beyond the car: boats and yachts, bicycles, padel rackets and sports equipment, helmets, drones, furniture and lighting, watches, eyewear and accessories, prototypes and custom industrial parts. We work pre-preg carbon fiber: cut by plotter, laid up in our clean room, cured in autoclave in our own molds. Our online shop opens soon.',
     pezziTitolo: 'Parts',
     pezzi: ['Spoiler', 'Rear wing', 'Front splitter', 'Side skirts', 'Hood', 'Diffuser', 'Mirror caps', 'Interior trim'],
     lavoroTitolo: 'Process',
-    lavoro: ['Pre-preg carbon fiber', 'Plotter cutting', 'Clean room', 'Autoclave', 'Molds', 'CFD simulation'],
+    lavoro: ['Pre-preg carbon fiber', '3D scanning', '3D modeling and machining', 'Plotter cutting', 'Clean room', 'Autoclave', 'Molds', 'CFD simulation'],
     footer: 'Nemea Design · Motor Valley, Italy'
   },
   de: {
@@ -37,11 +37,11 @@ const TESTI = {
     h1: 'Carbonfaser.<br>Jede Form, die Sie sich vorstellen.',
     lead: 'Von Automotive bis Einrichtung, von Sport bis zu Alltagsobjekten. Wo Stil auf Technologie trifft. Motor Valley.',
     cosaKicker: 'Was wir fertigen',
-    cosa: 'Carbonteile für Autos und Motorräder: Spoiler und Heckflügel, Frontsplitter, Seitenschweller, Motorhauben, Diffusoren, Spiegelkappen und Innenraumverkleidungen. Dazu Carbonteile nach Maß für Einrichtung, Sport und Designobjekte. Wir verarbeiten Prepreg-Carbonfaser: per Plotter zugeschnitten, in unserem Reinraum laminiert, im Autoklaven in eigenen Formen ausgehärtet. Unser Online-Shop öffnet in Kürze.',
+    cosa: 'Carbonteile für Autos und Motorräder: Spoiler und Heckflügel, Frontsplitter, Seitenschweller, Motorhauben, Diffusoren, Spiegelkappen und Innenraumverkleidungen. Und weit über das Auto hinaus: Boote und Yachten, Fahrräder, Padelschläger und Sportgeräte, Helme, Drohnen, Möbel und Leuchten, Uhren, Brillen und Accessoires, Prototypen und Industrieteile nach Maß. Wir verarbeiten Prepreg-Carbonfaser: per Plotter zugeschnitten, in unserem Reinraum laminiert, im Autoklaven in eigenen Formen ausgehärtet. Unser Online-Shop öffnet in Kürze.',
     pezziTitolo: 'Teile',
     pezzi: ['Spoiler', 'Heckflügel', 'Frontsplitter', 'Seitenschweller', 'Motorhaube', 'Diffusor', 'Spiegelkappen', 'Interieur'],
     lavoroTitolo: 'Verfahren',
-    lavoro: ['Prepreg-Carbonfaser', 'Plotterzuschnitt', 'Reinraum', 'Autoklav', 'Formen', 'CFD-Simulation'],
+    lavoro: ['Prepreg-Carbonfaser', '3D-Scan', '3D-Modellierung und -Bearbeitung', 'Plotterzuschnitt', 'Reinraum', 'Autoklav', 'Formen', 'CFD-Simulation'],
     footer: 'Nemea Design · Motor Valley, Italien'
   },
   es: {
@@ -51,11 +51,11 @@ const TESTI = {
     h1: 'Fibra de carbono.<br>Cualquier forma que imagines.',
     lead: 'De la automoción al mobiliario, del deporte a los objetos de cada día. Donde el estilo se encuentra con la tecnología. Motor Valley.',
     cosaKicker: 'Lo que hacemos',
-    cosa: 'Piezas de fibra de carbono para coches y motos: alerones y spoilers, splitters delanteros, taloneras, capós, difusores, carcasas de retrovisor y molduras interiores. Y piezas de carbono a medida para mobiliario, deporte y objetos de diseño. Trabajamos fibra de carbono pre-preg (preimpregnada): cortada con plotter, laminada en nuestra sala limpia y curada en autoclave en nuestros propios moldes. Nuestra tienda online abre muy pronto.',
+    cosa: 'Piezas de fibra de carbono para coches y motos: alerones y spoilers, splitters delanteros, taloneras, capós, difusores, carcasas de retrovisor y molduras interiores. Y mucho más allá del coche: barcos y yates, bicicletas, palas de pádel y material deportivo, cascos, drones, mobiliario e iluminación, relojes, gafas y accesorios, prototipos y piezas industriales a medida. Trabajamos fibra de carbono pre-preg (preimpregnada): cortada con plotter, laminada en nuestra sala limpia y curada en autoclave en nuestros propios moldes. Nuestra tienda online abre muy pronto.',
     pezziTitolo: 'Piezas',
     pezzi: ['Alerón', 'Spoiler', 'Splitter delantero', 'Taloneras', 'Capó', 'Difusor', 'Carcasas de retrovisor', 'Interior'],
     lavoroTitolo: 'Proceso',
-    lavoro: ['Fibra de carbono pre-preg', 'Corte con plotter', 'Sala limpia', 'Autoclave', 'Moldes', 'Simulación CFD'],
+    lavoro: ['Fibra de carbono pre-preg', 'Escaneo 3D', 'Modelado y mecanizado 3D', 'Corte con plotter', 'Sala limpia', 'Autoclave', 'Moldes', 'Simulación CFD'],
     footer: 'Nemea Design · Motor Valley, Italia'
   },
   fr: {
@@ -65,11 +65,11 @@ const TESTI = {
     h1: 'Fibre de carbone.<br>Toutes les formes que vous imaginez.',
     lead: 'De l’automobile au mobilier, du sport aux objets du quotidien. Là où le style rencontre la technologie. Motor Valley.',
     cosaKicker: 'Ce que nous fabriquons',
-    cosa: 'Pièces en fibre de carbone pour autos et motos : ailerons et spoilers, lames avant (splitters), bas de caisse, capots, diffuseurs, coques de rétroviseurs et garnitures intérieures. Et des pièces en carbone sur mesure pour le mobilier, le sport et les objets design. Nous travaillons la fibre de carbone pré-imprégnée (pre-preg) : découpée au plotter, drapée dans notre salle blanche, cuite en autoclave dans nos propres moules. Notre boutique en ligne ouvre bientôt.',
+    cosa: 'Pièces en fibre de carbone pour autos et motos : ailerons et spoilers, lames avant (splitters), bas de caisse, capots, diffuseurs, coques de rétroviseurs et garnitures intérieures. Et bien au-delà de l’auto : bateaux et yachts, vélos, raquettes de padel et équipements sportifs, casques, drones, mobilier et luminaires, montres, lunettes et accessoires, prototypes et pièces industrielles sur mesure. Nous travaillons la fibre de carbone pré-imprégnée (pre-preg) : découpée au plotter, drapée dans notre salle blanche, cuite en autoclave dans nos propres moules. Notre boutique en ligne ouvre bientôt.',
     pezziTitolo: 'Pièces',
     pezzi: ['Aileron', 'Spoiler', 'Splitter avant', 'Bas de caisse', 'Capot', 'Diffuseur', 'Coques de rétroviseurs', 'Intérieur'],
     lavoroTitolo: 'Procédé',
-    lavoro: ['Carbone pré-imprégné', 'Découpe au plotter', 'Salle blanche', 'Autoclave', 'Moules', 'Simulation CFD'],
+    lavoro: ['Carbone pré-imprégné', 'Numérisation 3D', 'Modélisation et usinage 3D', 'Découpe au plotter', 'Salle blanche', 'Autoclave', 'Moules', 'Simulation CFD'],
     footer: 'Nemea Design · Motor Valley, Italie'
   },
   it: {
@@ -79,11 +79,11 @@ const TESTI = {
     h1: 'Fibra di carbonio.<br>Qualunque forma tu immagini.',
     lead: 'Dall’automotive all’arredo, dallo sport agli oggetti di ogni giorno. Dove lo stile incontra la tecnologia. Motor Valley.',
     cosaKicker: 'Cosa facciamo',
-    cosa: 'Componenti in fibra di carbonio per auto e moto: alettoni e spoiler, splitter anteriori, minigonne, cofani, diffusori, calotte degli specchietti e finiture interne. E pezzi in carbonio su misura per arredo, sport e oggetti di design. Lavoriamo fibra di carbonio pre-preg (pre-impregnata): tagliata al plotter, laminata nella nostra clean room, cotta in autoclave nei nostri stampi. Il nostro negozio online apre a breve.',
+    cosa: 'Componenti in fibra di carbonio per auto e moto: alettoni e spoiler, splitter anteriori, minigonne, cofani, diffusori, calotte degli specchietti e finiture interne. E molto oltre l’auto: nautica e yacht, biciclette, racchette da padel e attrezzature sportive, caschi, droni, arredo e illuminazione, orologi, occhiali e accessori, prototipi e componenti industriali su misura. Lavoriamo fibra di carbonio pre-preg (pre-impregnata): tagliata al plotter, laminata nella nostra clean room, cotta in autoclave nei nostri stampi. Il nostro negozio online apre a breve.',
     pezziTitolo: 'Componenti',
     pezzi: ['Alettone', 'Spoiler', 'Splitter anteriore', 'Minigonne', 'Cofano', 'Diffusore', 'Calotte specchietti', 'Interni'],
     lavoroTitolo: 'Lavorazione',
-    lavoro: ['Carbonio pre-preg', 'Taglio al plotter', 'Clean room', 'Autoclave', 'Stampi', 'Simulazione CFD'],
+    lavoro: ['Carbonio pre-preg', 'Scansione 3D', 'Modellazione e lavorazioni 3D', 'Taglio al plotter', 'Clean room', 'Autoclave', 'Stampi', 'Simulazione CFD'],
     footer: 'Nemea Design · Motor Valley, Italia'
   }
 };
