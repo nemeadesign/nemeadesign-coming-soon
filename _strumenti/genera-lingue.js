@@ -44,7 +44,7 @@ const TESTI = {
     privacyTitolo: 'Privacy',
     chiudi: 'Close',
     privacy: [
-      'Data controller: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italy, VAT IT04339130405. Workshop and operations: via Venezia 100, 47521 Cesena (FC), Italy. Once NEMEA Design is incorporated, it will become the data controller and we will let you know by email.',
+      'Data controller: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italy, VAT IT04339130405. Workshop and operations: via Venezia 100, 47521 Cesena (FC), Italy.',
       'We use your email, what interests you and the language of the page only to send you news about the Collezione and the opening of the shop. The legal basis is your consent, which you can withdraw at any time with the link at the bottom of every email.',
       'Emails are sent through Klaviyo Inc., which stores the data in the United States under the safeguards required by the GDPR (EU-US Data Privacy Framework and standard contractual clauses). We keep the data for as long as you stay subscribed.',
       'You can ask to access, correct, delete or port your data, or object to its use, by writing to <a href="mailto:info@nemeadesign.com">info@nemeadesign.com</a>. You can also lodge a complaint with a data protection authority, such as the Italian Garante per la protezione dei dati personali.'
@@ -78,7 +78,7 @@ const TESTI = {
     privacyTitolo: 'Datenschutz',
     chiudi: 'Schließen',
     privacy: [
-      'Verantwortlicher: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italien, USt-IdNr. IT04339130405. Betriebsstätte und Werkstatt: via Venezia 100, 47521 Cesena (FC), Italien. Sobald NEMEA Design gegründet ist, wird sie Verantwortlicher; wir informieren Sie dann per E-Mail.',
+      'Verantwortlicher: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italien, USt-IdNr. IT04339130405. Betriebsstätte und Werkstatt: via Venezia 100, 47521 Cesena (FC), Italien.',
       'Wir verwenden Ihre E-Mail-Adresse, Ihr Interesse und die Sprache der Seite nur, um Ihnen Neuigkeiten über die Collezione und die Eröffnung des Shops zu senden. Rechtsgrundlage ist Ihre Einwilligung, die Sie jederzeit über den Link am Ende jeder E-Mail widerrufen können.',
       'Die E-Mails werden über Klaviyo Inc. versendet, die die Daten in den USA mit den von der DSGVO vorgesehenen Garantien speichert (EU-US Data Privacy Framework und Standardvertragsklauseln). Wir speichern die Daten, solange Sie angemeldet bleiben.',
       'Sie können Auskunft, Berichtigung, Löschung oder Übertragung Ihrer Daten verlangen oder der Verarbeitung widersprechen: <a href="mailto:info@nemeadesign.com">info@nemeadesign.com</a>. Sie können sich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren.'
@@ -112,7 +112,7 @@ const TESTI = {
     privacyTitolo: 'Privacidad',
     chiudi: 'Cerrar',
     privacy: [
-      'Responsable del tratamiento: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italia, IVA IT04339130405. Sede operativa y taller: via Venezia 100, 47521 Cesena (FC), Italia. Cuando se constituya NEMEA Design, pasará a ser la responsable y te avisaremos por correo.',
+      'Responsable del tratamiento: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italia, IVA IT04339130405. Sede operativa y taller: via Venezia 100, 47521 Cesena (FC), Italia.',
       'Usamos tu correo, lo que te interesa y el idioma de la página solo para enviarte noticias sobre la Collezione y la apertura de la tienda. La base es tu consentimiento, que puedes retirar cuando quieras con el enlace al final de cada correo.',
       'Los correos se envían con Klaviyo Inc., que guarda los datos en Estados Unidos con las garantías previstas por el RGPD (Marco de Privacidad de Datos UE-EE. UU. y cláusulas contractuales tipo). Conservamos los datos mientras sigas suscrito.',
       'Puedes pedir acceso, rectificación, supresión o portabilidad de tus datos, u oponerte al tratamiento, escribiendo a <a href="mailto:info@nemeadesign.com">info@nemeadesign.com</a>. También puedes presentar una reclamación ante una autoridad de protección de datos.'
@@ -146,7 +146,7 @@ const TESTI = {
     privacyTitolo: 'Confidentialité',
     chiudi: 'Fermer',
     privacy: [
-      'Responsable du traitement : NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italie, TVA IT04339130405. Site de production : via Venezia 100, 47521 Cesena (FC), Italie. Une fois NEMEA Design constituée, elle deviendra responsable du traitement et nous vous en informerons par e-mail.',
+      'Responsable du traitement : NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italie, TVA IT04339130405. Site de production : via Venezia 100, 47521 Cesena (FC), Italie.',
       'Nous utilisons votre e-mail, ce qui vous intéresse et la langue de la page uniquement pour vous envoyer des nouvelles de la Collezione et de l’ouverture de la boutique. La base légale est votre consentement, que vous pouvez retirer à tout moment via le lien en bas de chaque e-mail.',
       'Les e-mails sont envoyés via Klaviyo Inc., qui conserve les données aux États-Unis avec les garanties prévues par le RGPD (cadre de protection des données UE-États-Unis et clauses contractuelles types). Nous conservons les données tant que vous restez inscrit.',
       'Vous pouvez demander l’accès, la rectification, l’effacement ou la portabilité de vos données, ou vous opposer à leur traitement, en écrivant à <a href="mailto:info@nemeadesign.com">info@nemeadesign.com</a>. Vous pouvez aussi introduire une réclamation auprès d’une autorité de protection des données.'
@@ -180,7 +180,7 @@ const TESTI = {
     privacyTitolo: 'Privacy',
     chiudi: 'Chiudi',
     privacy: [
-      'Titolare del trattamento: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), P.IVA 04339130405. Sede operativa e laboratorio: via Venezia 100, 47521 Cesena (FC). Quando NEMEA Design sarà costituita diventerà lei la titolare, e te lo diremo via email.',
+      'Titolare del trattamento: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), P.IVA 04339130405. Sede operativa e laboratorio: via Venezia 100, 47521 Cesena (FC).',
       'Usiamo la tua email, cosa ti interessa e la lingua della pagina solo per mandarti notizie sulla Collezione e sull’apertura del negozio. La base è il tuo consenso, che puoi ritirare quando vuoi con il link in fondo a ogni email.',
       'Le email partono da Klaviyo Inc., che conserva i dati negli Stati Uniti con le garanzie previste dal GDPR (Data Privacy Framework UE-USA e clausole contrattuali standard). Teniamo i dati finché resti iscritto.',
       'Puoi chiedere accesso, correzione, cancellazione o portabilità dei tuoi dati, oppure opporti al loro uso, scrivendo a <a href="mailto:info@nemeadesign.com">info@nemeadesign.com</a>. Puoi anche presentare reclamo al Garante per la protezione dei dati personali.'
