@@ -17,8 +17,8 @@ Una pagina per lingua, ognuna col suo indirizzo, collegate con `hreflang` perch�
 Sotto il titolo c'è il modulo "Segui la Collezione": email, cosa interessa (Porsche 992, Tesla, Altro) e consenso.
 Manda il contatto a Klaviyo con l'API client, che usa solo la chiave pubblica del sito.
 
-- In `index.html`, in cima allo script: `KLAVIYO.listId` = ID della lista "Collezione" in Klaviyo, con doppio consenso attivo.
-  Finché è vuoto il modulo non salva niente e dice che le iscrizioni aprono a breve.
+- Una lista Klaviyo per lingua, perché Klaviyo ha una sola mail di conferma per lista: `LISTE` in cima allo script
+  (EN `RAzkj9`, DE `XdvvRj`, ES `Vj2BTh`, FR `VfzRCB`, IT `Sc2T2d`, doppio consenso). La pagina sceglie la lista dal suo `lang`.
 - Proprietà salvate sul profilo: `collezione_interesse` (`porsche-992`, `tesla`, `altro`, `non indicato`),
   `collezione_lingua`, `collezione_iscritto_il`.
 - Per provare senza inviare nulla: `?demo=1`.
