@@ -27,7 +27,7 @@ con `edition001_price_currency`.
 
 ## Prima di pubblicare
 
-- Titolare del trattamento nella finestra Privacy (oggi segnaposto `[ragione sociale, sede e P.IVA da completare]`).
+- Titolare del trattamento: NEMEA s.r.l. finché non è costituita NEMEA Design (02/11/2026), già scritto nella finestra Privacy.
 - Chiavi Klaviyo compilate e un invio di prova controllato in Klaviyo.
 
 ## Immagini
