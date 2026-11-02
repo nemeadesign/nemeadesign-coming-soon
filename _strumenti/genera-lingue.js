@@ -28,7 +28,27 @@ const TESTI = {
     pezzi: ['Spoiler', 'Rear wing', 'Front splitter', 'Side skirts', 'Hood', 'Diffuser', 'Mirror caps', 'Interior trim'],
     lavoroTitolo: 'Process',
     lavoro: ['Pre-preg carbon fiber', '3D scanning', '3D modeling and machining', 'Plotter cutting', 'Clean room', 'Autoclave', 'Molds', 'CFD simulation'],
-    footer: 'Nemea Design · Motor Valley, Italy'
+    footer: 'Nemea Design · Motor Valley, Italy',
+    iscrizioneTitolo: 'Follow the Collezione',
+    iscrizioneTesto: 'Be the first to see the pieces and the opening date. A few emails, only when there is something worth showing.',
+    email: 'Your email',
+    bottone: 'Follow',
+    interesse: 'What interests you?',
+    interessi: ['Porsche 992', 'Tesla', 'Something else'],
+    consenso: 'I agree to receive emails from Nemea Design about the Collezione. I can unsubscribe at any time.',
+    fatto: 'Almost done: check your inbox and confirm your email.',
+    errEmail: 'Please enter a valid email.',
+    errConsenso: 'Please tick the consent box.',
+    errInvio: 'Something went wrong. Please try again in a moment.',
+    inattivo: 'Sign-ups open in a few days.',
+    privacyTitolo: 'Privacy',
+    chiudi: 'Close',
+    privacy: [
+      'Data controller: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italy, VAT IT04339130405. Once NEMEA Design is incorporated, it will become the data controller and we will let you know by email.',
+      'We use your email, what interests you and the language of the page only to send you news about the Collezione and the opening of the shop. The legal basis is your consent, which you can withdraw at any time with the link at the bottom of every email.',
+      'Emails are sent through Klaviyo Inc., which stores the data in the United States under the safeguards required by the GDPR (EU-US Data Privacy Framework and standard contractual clauses). We keep the data for as long as you stay subscribed.',
+      'You can ask to access, correct, delete or port your data, or object to its use, by writing to <a href="mailto:info@nemeadesign.com">info@nemeadesign.com</a>. You can also lodge a complaint with a data protection authority, such as the Italian Garante per la protezione dei dati personali.'
+    ]
   },
   de: {
     title: 'Nemea Design — Carbonteile und Carbon-Komponenten fürs Auto | Motor Valley, Italien',
@@ -42,7 +62,27 @@ const TESTI = {
     pezzi: ['Spoiler', 'Heckflügel', 'Frontsplitter', 'Seitenschweller', 'Motorhaube', 'Diffusor', 'Spiegelkappen', 'Interieur'],
     lavoroTitolo: 'Verfahren',
     lavoro: ['Prepreg-Carbonfaser', '3D-Scan', '3D-Modellierung und -Bearbeitung', 'Plotterzuschnitt', 'Reinraum', 'Autoklav', 'Formen', 'CFD-Simulation'],
-    footer: 'Nemea Design · Motor Valley, Italien'
+    footer: 'Nemea Design · Motor Valley, Italien',
+    iscrizioneTitolo: 'Folgen Sie der Collezione',
+    iscrizioneTesto: 'Sehen Sie die Teile und das Eröffnungsdatum als Erste. Wenige E-Mails, nur wenn es etwas zu zeigen gibt.',
+    email: 'Ihre E-Mail',
+    bottone: 'Folgen',
+    interesse: 'Was interessiert Sie?',
+    interessi: ['Porsche 992', 'Tesla', 'Etwas anderes'],
+    consenso: 'Ich möchte E-Mails von Nemea Design über die Collezione erhalten. Ich kann mich jederzeit abmelden.',
+    fatto: 'Fast geschafft: Bitte prüfen Sie Ihr Postfach und bestätigen Sie Ihre E-Mail-Adresse.',
+    errEmail: 'Bitte geben Sie eine gültige E-Mail-Adresse ein.',
+    errConsenso: 'Bitte bestätigen Sie die Einwilligung.',
+    errInvio: 'Etwas ist schiefgelaufen. Bitte versuchen Sie es gleich noch einmal.',
+    inattivo: 'Die Anmeldung öffnet in wenigen Tagen.',
+    privacyTitolo: 'Datenschutz',
+    chiudi: 'Schließen',
+    privacy: [
+      'Verantwortlicher: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italien, USt-IdNr. IT04339130405. Sobald NEMEA Design gegründet ist, wird sie Verantwortlicher; wir informieren Sie dann per E-Mail.',
+      'Wir verwenden Ihre E-Mail-Adresse, Ihr Interesse und die Sprache der Seite nur, um Ihnen Neuigkeiten über die Collezione und die Eröffnung des Shops zu senden. Rechtsgrundlage ist Ihre Einwilligung, die Sie jederzeit über den Link am Ende jeder E-Mail widerrufen können.',
+      'Die E-Mails werden über Klaviyo Inc. versendet, die die Daten in den USA mit den von der DSGVO vorgesehenen Garantien speichert (EU-US Data Privacy Framework und Standardvertragsklauseln). Wir speichern die Daten, solange Sie angemeldet bleiben.',
+      'Sie können Auskunft, Berichtigung, Löschung oder Übertragung Ihrer Daten verlangen oder der Verarbeitung widersprechen: <a href="mailto:info@nemeadesign.com">info@nemeadesign.com</a>. Sie können sich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren.'
+    ]
   },
   es: {
     title: 'Nemea Design — Piezas y componentes de fibra de carbono para coche | Motor Valley, Italia',
@@ -56,7 +96,27 @@ const TESTI = {
     pezzi: ['Alerón', 'Spoiler', 'Splitter delantero', 'Taloneras', 'Capó', 'Difusor', 'Carcasas de retrovisor', 'Interior'],
     lavoroTitolo: 'Proceso',
     lavoro: ['Fibra de carbono pre-preg', 'Escaneo 3D', 'Modelado y mecanizado 3D', 'Corte con plotter', 'Sala limpia', 'Autoclave', 'Moldes', 'Simulación CFD'],
-    footer: 'Nemea Design · Motor Valley, Italia'
+    footer: 'Nemea Design · Motor Valley, Italia',
+    iscrizioneTitolo: 'Sigue la Collezione',
+    iscrizioneTesto: 'Sé el primero en ver las piezas y la fecha de apertura. Pocos correos, solo cuando haya algo que valga la pena enseñar.',
+    email: 'Tu correo',
+    bottone: 'Seguir',
+    interesse: '¿Qué te interesa?',
+    interessi: ['Porsche 992', 'Tesla', 'Otra cosa'],
+    consenso: 'Acepto recibir correos de Nemea Design sobre la Collezione. Puedo darme de baja cuando quiera.',
+    fatto: 'Casi listo: revisa tu correo y confirma tu dirección.',
+    errEmail: 'Escribe un correo válido.',
+    errConsenso: 'Marca la casilla de consentimiento.',
+    errInvio: 'Algo ha fallado. Inténtalo de nuevo en un momento.',
+    inattivo: 'Las inscripciones abren en pocos días.',
+    privacyTitolo: 'Privacidad',
+    chiudi: 'Cerrar',
+    privacy: [
+      'Responsable del tratamiento: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italia, IVA IT04339130405. Cuando se constituya NEMEA Design, pasará a ser la responsable y te avisaremos por correo.',
+      'Usamos tu correo, lo que te interesa y el idioma de la página solo para enviarte noticias sobre la Collezione y la apertura de la tienda. La base es tu consentimiento, que puedes retirar cuando quieras con el enlace al final de cada correo.',
+      'Los correos se envían con Klaviyo Inc., que guarda los datos en Estados Unidos con las garantías previstas por el RGPD (Marco de Privacidad de Datos UE-EE. UU. y cláusulas contractuales tipo). Conservamos los datos mientras sigas suscrito.',
+      'Puedes pedir acceso, rectificación, supresión o portabilidad de tus datos, u oponerte al tratamiento, escribiendo a <a href="mailto:info@nemeadesign.com">info@nemeadesign.com</a>. También puedes presentar una reclamación ante una autoridad de protección de datos.'
+    ]
   },
   fr: {
     title: 'Nemea Design — Pièces et composants en fibre de carbone pour auto | Motor Valley, Italie',
@@ -70,7 +130,27 @@ const TESTI = {
     pezzi: ['Aileron', 'Spoiler', 'Splitter avant', 'Bas de caisse', 'Capot', 'Diffuseur', 'Coques de rétroviseurs', 'Intérieur'],
     lavoroTitolo: 'Procédé',
     lavoro: ['Carbone pré-imprégné', 'Numérisation 3D', 'Modélisation et usinage 3D', 'Découpe au plotter', 'Salle blanche', 'Autoclave', 'Moules', 'Simulation CFD'],
-    footer: 'Nemea Design · Motor Valley, Italie'
+    footer: 'Nemea Design · Motor Valley, Italie',
+    iscrizioneTitolo: 'Suivez la Collezione',
+    iscrizioneTesto: 'Découvrez les pièces et la date d’ouverture en avant-première. Peu d’e-mails, seulement quand il y a quelque chose à montrer.',
+    email: 'Votre e-mail',
+    bottone: 'Suivre',
+    interesse: 'Qu’est-ce qui vous intéresse ?',
+    interessi: ['Porsche 992', 'Tesla', 'Autre chose'],
+    consenso: 'J’accepte de recevoir des e-mails de Nemea Design sur la Collezione. Je peux me désinscrire à tout moment.',
+    fatto: 'Presque terminé : vérifiez votre boîte mail et confirmez votre adresse.',
+    errEmail: 'Saisissez une adresse e-mail valide.',
+    errConsenso: 'Cochez la case de consentement.',
+    errInvio: 'Une erreur est survenue. Réessayez dans un instant.',
+    inattivo: 'Les inscriptions ouvrent dans quelques jours.',
+    privacyTitolo: 'Confidentialité',
+    chiudi: 'Fermer',
+    privacy: [
+      'Responsable du traitement : NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italie, TVA IT04339130405. Une fois NEMEA Design constituée, elle deviendra responsable du traitement et nous vous en informerons par e-mail.',
+      'Nous utilisons votre e-mail, ce qui vous intéresse et la langue de la page uniquement pour vous envoyer des nouvelles de la Collezione et de l’ouverture de la boutique. La base légale est votre consentement, que vous pouvez retirer à tout moment via le lien en bas de chaque e-mail.',
+      'Les e-mails sont envoyés via Klaviyo Inc., qui conserve les données aux États-Unis avec les garanties prévues par le RGPD (cadre de protection des données UE-États-Unis et clauses contractuelles types). Nous conservons les données tant que vous restez inscrit.',
+      'Vous pouvez demander l’accès, la rectification, l’effacement ou la portabilité de vos données, ou vous opposer à leur traitement, en écrivant à <a href="mailto:info@nemeadesign.com">info@nemeadesign.com</a>. Vous pouvez aussi introduire une réclamation auprès d’une autorité de protection des données.'
+    ]
   },
   it: {
     title: 'Nemea Design — Componenti in fibra di carbonio per auto | Motor Valley',
@@ -84,7 +164,27 @@ const TESTI = {
     pezzi: ['Alettone', 'Spoiler', 'Splitter anteriore', 'Minigonne', 'Cofano', 'Diffusore', 'Calotte specchietti', 'Interni'],
     lavoroTitolo: 'Lavorazione',
     lavoro: ['Carbonio pre-preg', 'Scansione 3D', 'Modellazione e lavorazioni 3D', 'Taglio al plotter', 'Clean room', 'Autoclave', 'Stampi', 'Simulazione CFD'],
-    footer: 'Nemea Design · Motor Valley, Italia'
+    footer: 'Nemea Design · Motor Valley, Italia',
+    iscrizioneTitolo: 'Segui la Collezione',
+    iscrizioneTesto: 'Vedi per primo i pezzi e la data di apertura. Poche email, solo quando c’è qualcosa che vale la pena mostrare.',
+    email: 'La tua email',
+    bottone: 'Segui',
+    interesse: 'Cosa ti interessa?',
+    interessi: ['Porsche 992', 'Tesla', 'Altro'],
+    consenso: 'Accetto di ricevere email da Nemea Design sulla Collezione. Posso cancellarmi quando voglio.',
+    fatto: 'Ci siamo quasi: controlla la posta e conferma la tua email.',
+    errEmail: 'Scrivi un’email valida.',
+    errConsenso: 'Spunta la casella del consenso.',
+    errInvio: 'Qualcosa è andato storto. Riprova tra un momento.',
+    inattivo: 'Le iscrizioni aprono tra pochi giorni.',
+    privacyTitolo: 'Privacy',
+    chiudi: 'Chiudi',
+    privacy: [
+      'Titolare del trattamento: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), P.IVA 04339130405. Quando NEMEA Design sarà costituita diventerà lei la titolare, e te lo diremo via email.',
+      'Usiamo la tua email, cosa ti interessa e la lingua della pagina solo per mandarti notizie sulla Collezione e sull’apertura del negozio. La base è il tuo consenso, che puoi ritirare quando vuoi con il link in fondo a ogni email.',
+      'Le email partono da Klaviyo Inc., che conserva i dati negli Stati Uniti con le garanzie previste dal GDPR (Data Privacy Framework UE-USA e clausole contrattuali standard). Teniamo i dati finché resti iscritto.',
+      'Puoi chiedere accesso, correzione, cancellazione o portabilità dei tuoi dati, oppure opporti al loro uso, scrivendo a <a href="mailto:info@nemeadesign.com">info@nemeadesign.com</a>. Puoi anche presentare reclamo al Garante per la protezione dei dati personali.'
+    ]
   }
 };
 
@@ -93,6 +193,45 @@ const modello = fs.readFileSync(path.join(radice, 'index.html'), 'utf8');
 const url = (l) => (l === 'en' ? `${SITO}/` : `${SITO}/${l}/`);
 const href = (da, a) => (da === 'en' ? (a === 'en' ? './' : `${a}/`) : (a === 'en' ? '../' : `../${a}/`));
 const lista = (voci) => voci.map((v) => `<li>${v}</li>`).join('');
+
+// Modulo di iscrizione alla Collezione (Klaviyo). I messaggi stanno negli attributi data-* del modulo,
+// così lo script nella pagina è uguale per tutte le lingue.
+const attr = (x) => x.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+const trattini = (k) => k.replace(/[A-Z]/g, (c) => '-' + c.toLowerCase());
+
+function iscrizione(t) {
+  const valori = ['porsche-992', 'tesla', 'altro'];
+  const messaggi = ['fatto', 'errEmail', 'errConsenso', 'errInvio', 'inattivo'].map((k) => ` data-${trattini(k)}="${attr(t[k])}"`).join('');
+  return '<!-- iscrizione -->\n' +
+    '      <section class="iscrizione" aria-labelledby="titolo-collezione">\n' +
+    `        <h2 id="titolo-collezione">${t.iscrizioneTitolo}</h2>\n` +
+    `        <p class="iscrizione-testo">${t.iscrizioneTesto}</p>\n` +
+    `        <form id="modulo-collezione" novalidate${messaggi}>\n` +
+    '          <div class="riga-email">\n' +
+    `            <input type="email" name="email" autocomplete="email" required placeholder="${attr(t.email)}" aria-label="${attr(t.email)}">\n` +
+    `            <button class="bottone" type="submit">${t.bottone}</button>\n` +
+    '          </div>\n' +
+    '          <fieldset class="interessi">\n' +
+    `            <legend>${t.interesse}</legend>\n` +
+    t.interessi.map((n, i) => `            <label><input type="radio" name="interesse" value="${valori[i]}"><span>${n}</span></label>`).join('\n') + '\n' +
+    '          </fieldset>\n' +
+    `          <label class="consenso"><input type="checkbox" name="consenso" required><span>${t.consenso} <button type="button" class="link" data-privacy>${t.privacyTitolo}</button></span></label>\n` +
+    '        </form>\n' +
+    '        <p id="messaggio-collezione" class="messaggio" role="status" hidden></p>\n' +
+    '      </section>\n' +
+    '      <!-- /iscrizione -->';
+}
+
+// Informativa privacy in una finestra: titolare NEMEA s.r.l. finché non è costituita NEMEA Design (02/11/2026).
+function finestraPrivacy(t) {
+  return '<!-- privacy -->\n' +
+    '  <dialog id="privacy" aria-labelledby="titolo-privacy">\n' +
+    `    <h2 id="titolo-privacy">${t.privacyTitolo}</h2>\n` +
+    t.privacy.map((p) => `    <p>${p}</p>`).join('\n') + '\n' +
+    `    <form method="dialog"><button class="bottone">${t.chiudi}</button></form>\n` +
+    '  </dialog>\n' +
+    '  <!-- /privacy -->';
+}
 
 function sostituisci(html, re, nuovo) {
   if (!re.test(html)) throw new Error('Non trovato nel modello: ' + re);
@@ -144,6 +283,10 @@ for (const l of ORDINE) {
     '  </section>\n' +
     '  <!-- /cosa-facciamo -->');
   h = sostituisci(h, /<footer>\s*<span>[^<]*<\/span>/, `<footer>\n      <span>${t.footer}</span>`);
+  h = sostituisci(h, /<!-- iscrizione -->[\s\S]*?<!-- \/iscrizione -->/, iscrizione(t));
+  h = sostituisci(h, /<!-- privacy -->[\s\S]*?<!-- \/privacy -->/, finestraPrivacy(t));
+  h = sostituisci(h, /<footer>[\s\S]*?<\/footer>/,
+    `<footer>\n      <span>${t.footer}</span>\n      <button type="button" class="link" data-privacy>${t.privacyTitolo}</button>\n    </footer>`);
   if (l !== 'en') h = h.replace(/(["'(])img\//g, '$1../img/');
 
   const cartella = l === 'en' ? radice : path.join(radice, l);

@@ -149,6 +149,65 @@
     @keyframes wip { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75%, 100% { content: "..."; } }
 
     @media (prefers-reduced-motion: reduce) { .wip::after { animation: none; content: "..."; } }
+
+    /* Iscrizione alla Collezione (Klaviyo) */
+    .iscrizione { max-width: 560px; margin-top: 40px; }
+
+    .iscrizione h2 { font-size: 1.15rem; font-weight: 600; }
+
+    .iscrizione-testo { margin-top: 6px; color: var(--silver-chrome); font-size: 0.95rem; font-weight: 300; }
+
+    .iscrizione form { display: grid; gap: 16px; margin-top: 20px; }
+
+    .riga-email { display: flex; flex-wrap: wrap; gap: 8px; }
+
+    .riga-email input { flex: 1 1 220px; min-width: 0; padding: 13px 14px; border: 1px solid rgb(245 245 245 / 0.25); border-radius: 0; background: rgb(10 10 10 / 0.6); color: var(--polar-white); font: inherit; }
+
+    .riga-email input:focus { outline: 2px solid var(--highlights-red); outline-offset: 1px; }
+
+    .bottone { padding: 13px 26px; border: 0; background: var(--crimson-red); color: var(--polar-white); font: inherit; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; }
+
+    .bottone:hover { background: var(--highlights-red); }
+
+    .bottone:disabled { opacity: 0.6; cursor: wait; }
+
+    .interessi { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 0; border: 0; }
+
+    .interessi legend { float: left; margin-right: 6px; color: var(--silver-chrome); font-size: 0.85rem; }
+
+    .interessi label { position: relative; }
+
+    .interessi input { position: absolute; opacity: 0; }
+
+    .interessi span { display: inline-block; padding: 6px 12px; border: 1px solid rgb(245 245 245 / 0.2); color: var(--silver-chrome); font-size: 0.85rem; cursor: pointer; }
+
+    .interessi input:checked + span { border-color: var(--highlights-red); color: var(--polar-white); }
+
+    .interessi input:focus-visible + span { outline: 2px solid var(--highlights-red); outline-offset: 1px; }
+
+    .consenso { display: flex; gap: 10px; align-items: flex-start; color: var(--silver-chrome); font-size: 0.8rem; }
+
+    .consenso input { margin-top: 3px; accent-color: var(--crimson-red); }
+
+    .link { padding: 0; border: 0; background: none; color: var(--silver-chrome); font: inherit; text-decoration: underline; cursor: pointer; }
+
+    .link:hover { color: var(--polar-white); }
+
+    .messaggio { color: var(--polar-white); font-size: 0.9rem; }
+
+    .messaggio.errore { color: #ff6b6e; }
+
+    dialog { margin: auto; max-width: min(640px, calc(100vw - 32px)); padding: 28px; border: 1px solid rgb(245 245 245 / 0.15); background: var(--obsidian); color: var(--silver-chrome); font-size: 0.9rem; }
+
+    dialog::backdrop { background: rgb(0 0 0 / 0.7); }
+
+    dialog h2 { margin-bottom: 14px; color: var(--polar-white); font-size: 1.1rem; }
+
+    dialog a { color: var(--polar-white); }
+
+    dialog p + p { margin-top: 10px; }
+
+    dialog form { margin-top: 20px; }
   </style>
 </head>
 <body>
@@ -168,10 +227,31 @@
       <p class="kicker">Collezione · WIP<span class="wip" aria-hidden="true"></span></p>
       <h1>Carbonfaser.<br>Jede Form, die Sie sich vorstellen.</h1>
       <p class="lead">Von Automotive bis Einrichtung, von Sport bis zu Alltagsobjekten. Wo Stil auf Technologie trifft. Motor Valley.</p>
+      <!-- iscrizione -->
+      <section class="iscrizione" aria-labelledby="titolo-collezione">
+        <h2 id="titolo-collezione">Folgen Sie der Collezione</h2>
+        <p class="iscrizione-testo">Sehen Sie die Teile und das Eröffnungsdatum als Erste. Wenige E-Mails, nur wenn es etwas zu zeigen gibt.</p>
+        <form id="modulo-collezione" novalidate data-fatto="Fast geschafft: Bitte prüfen Sie Ihr Postfach und bestätigen Sie Ihre E-Mail-Adresse." data-err-email="Bitte geben Sie eine gültige E-Mail-Adresse ein." data-err-consenso="Bitte bestätigen Sie die Einwilligung." data-err-invio="Etwas ist schiefgelaufen. Bitte versuchen Sie es gleich noch einmal." data-inattivo="Die Anmeldung öffnet in wenigen Tagen.">
+          <div class="riga-email">
+            <input type="email" name="email" autocomplete="email" required placeholder="Ihre E-Mail" aria-label="Ihre E-Mail">
+            <button class="bottone" type="submit">Folgen</button>
+          </div>
+          <fieldset class="interessi">
+            <legend>Was interessiert Sie?</legend>
+            <label><input type="radio" name="interesse" value="porsche-992"><span>Porsche 992</span></label>
+            <label><input type="radio" name="interesse" value="tesla"><span>Tesla</span></label>
+            <label><input type="radio" name="interesse" value="altro"><span>Etwas anderes</span></label>
+          </fieldset>
+          <label class="consenso"><input type="checkbox" name="consenso" required><span>Ich möchte E-Mails von Nemea Design über die Collezione erhalten. Ich kann mich jederzeit abmelden. <button type="button" class="link" data-privacy>Datenschutz</button></span></label>
+        </form>
+        <p id="messaggio-collezione" class="messaggio" role="status" hidden></p>
+      </section>
+      <!-- /iscrizione -->
     </div>
 
     <footer>
       <span>Nemea Design · Motor Valley, Italien</span>
+      <button type="button" class="link" data-privacy>Datenschutz</button>
     </footer>
   </main>
 
@@ -185,5 +265,86 @@
     </div>
   </section>
   <!-- /cosa-facciamo -->
+
+  <!-- privacy -->
+  <dialog id="privacy" aria-labelledby="titolo-privacy">
+    <h2 id="titolo-privacy">Datenschutz</h2>
+    <p>Verantwortlicher: NEMEA s.r.l., via T. Franchini 14/A, 47822 Santarcangelo di Romagna (RN), Italien, USt-IdNr. IT04339130405. Sobald NEMEA Design gegründet ist, wird sie Verantwortlicher; wir informieren Sie dann per E-Mail.</p>
+    <p>Wir verwenden Ihre E-Mail-Adresse, Ihr Interesse und die Sprache der Seite nur, um Ihnen Neuigkeiten über die Collezione und die Eröffnung des Shops zu senden. Rechtsgrundlage ist Ihre Einwilligung, die Sie jederzeit über den Link am Ende jeder E-Mail widerrufen können.</p>
+    <p>Die E-Mails werden über Klaviyo Inc. versendet, die die Daten in den USA mit den von der DSGVO vorgesehenen Garantien speichert (EU-US Data Privacy Framework und Standardvertragsklauseln). Wir speichern die Daten, solange Sie angemeldet bleiben.</p>
+    <p>Sie können Auskunft, Berichtigung, Löschung oder Übertragung Ihrer Daten verlangen oder der Verarbeitung widersprechen: <a href="mailto:info@nemeadesign.com">info@nemeadesign.com</a>. Sie können sich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren.</p>
+    <form method="dialog"><button class="bottone">Schließen</button></form>
+  </dialog>
+  <!-- /privacy -->
+
+  <script>
+    // Iscrizione alla Collezione su Klaviyo (API client: usa solo la chiave pubblica del sito, non è un segreto).
+    // Finché listId è vuoto il modulo non salva niente e dice che le iscrizioni aprono a breve.
+    // Per provare il percorso senza inviare nulla: ?demo=1
+    const KLAVIYO = { companyId: 'XnUBxB', listId: '' };
+    const KLAVIYO_REVISION = '2026-10-15';
+    const DEMO = new URLSearchParams(location.search).has('demo');
+
+    const privacy = document.getElementById('privacy');
+    document.querySelectorAll('[data-privacy]').forEach((b) => b.addEventListener('click', () => privacy.showModal()));
+
+    const modulo = document.getElementById('modulo-collezione');
+    const messaggio = document.getElementById('messaggio-collezione');
+    const testo = (chiave) => modulo.dataset[chiave];
+    const mostra = (t, errore) => { messaggio.textContent = t; messaggio.className = 'messaggio' + (errore ? ' errore' : ''); messaggio.hidden = false; };
+
+    modulo.addEventListener('submit', async (evento) => {
+      evento.preventDefault();
+      messaggio.hidden = true;
+      const campi = modulo.elements;
+      if (!campi.email.value.trim() || !campi.email.validity.valid) return mostra(testo('errEmail'), true);
+      if (!campi.consenso.checked) return mostra(testo('errConsenso'), true);
+      if (!DEMO && !KLAVIYO.listId) return mostra(testo('inattivo'), true);
+
+      const corpo = {
+        data: {
+          type: 'subscription',
+          attributes: {
+            custom_source: 'nemeadesign.com - Collezione',
+            profile: {
+              data: {
+                type: 'profile',
+                attributes: {
+                  email: campi.email.value.trim(),
+                  properties: {
+                    collezione_interesse: campi.interesse.value || 'non indicato',
+                    collezione_lingua: document.documentElement.lang,
+                    collezione_iscritto_il: new Date().toISOString()
+                  }
+                }
+              }
+            }
+          },
+          relationships: { list: { data: { type: 'list', id: KLAVIYO.listId } } }
+        }
+      };
+
+      const bottone = modulo.querySelector('button[type="submit"]');
+      bottone.disabled = true;
+      try {
+        if (DEMO) {
+          console.info('[demo] Klaviyo', corpo);
+        } else {
+          const risposta = await fetch('https://a.klaviyo.com/client/subscriptions/?company_id=' + KLAVIYO.companyId, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/vnd.api+json', revision: KLAVIYO_REVISION },
+            body: JSON.stringify(corpo)
+          });
+          if (!risposta.ok) throw new Error(risposta.status);
+        }
+        modulo.hidden = true;
+        mostra(testo('fatto'), false);
+      } catch (errore) {
+        mostra(testo('errInvio'), true);
+      } finally {
+        bottone.disabled = false;
+      }
+    });
+  </script>
 </body>
 </html>
