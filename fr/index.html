@@ -281,7 +281,10 @@
     // Iscrizione alla Collezione su Klaviyo (API client: usa solo la chiave pubblica del sito, non è un segreto).
     // Finché listId è vuoto il modulo non salva niente e dice che le iscrizioni aprono a breve.
     // Per provare il percorso senza inviare nulla: ?demo=1
-    const KLAVIYO = { companyId: 'XnUBxB', listId: 'Sc2T2d' }; // lista "Collezione", doppio consenso
+    // Una lista per lingua: Klaviyo ha una sola mail di conferma (doppio consenso) per lista, quindi la lingua giusta
+    // arriva solo se ogni pagina iscrive alla lista della sua lingua (Claudio, 02/11/2026).
+    const LISTE = { en: 'RAzkj9', de: 'XdvvRj', es: 'Vj2BTh', fr: 'VfzRCB', it: 'Sc2T2d' }; // "Collezione EN" … "Collezione IT"
+    const KLAVIYO = { companyId: 'XnUBxB', listId: LISTE[document.documentElement.lang] || LISTE.en };
     const KLAVIYO_REVISION = '2026-10-15';
     const DEMO = new URLSearchParams(location.search).has('demo');
 
